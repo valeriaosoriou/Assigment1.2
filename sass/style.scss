@@ -1,11 +1,16 @@
-@import 'base/fonts';
 @import 'base/reset';
+@import 'base/fonts';
+@import 'base/base';
+
+
+@import 'variables/colour';
+@import 'variables/mediaqueries';
+
 @import 'components/_btn';
 @import 'components/_footer';
 @import 'components/_form';
 @import 'components/_header';
 @import 'components/_images';
 @import 'components/_nav';
+
 @import 'pages/_about';
-@import 'variables/colour';
-@import 'variables/mediaqueries';

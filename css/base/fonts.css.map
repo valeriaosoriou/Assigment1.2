@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,6EAAqE",
+"mappings": "AAAQ,wEAAgE",
 "sources": ["../../sass/base/fonts.scss"],
 "names": [],
 "file": "fonts.css"
