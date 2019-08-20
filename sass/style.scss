@@ -1,16 +1,17 @@
 @import 'base/reset';
 @import 'base/fonts';
-@import 'base/base';
-
+// @import 'base/base';
 
 @import 'variables/colour';
 @import 'variables/mediaqueries';
 
-@import 'components/_btn';
-@import 'components/_footer';
-@import 'components/_form';
-@import 'components/_header';
-@import 'components/_images';
-@import 'components/_nav';
+@import 'components/btn';
+@import 'components/banners';
+@import 'components/footer';
+@import 'components/form';
+@import 'components/header';
+@import 'components/images';
+@import 'components/nav';
+@import 'components/paragraph';
 
-@import 'pages/_about';
+@import 'pages/about';
