@@ -1,0 +1,42 @@
+// @import 'variables/colours';
+// @import 'base/fonts';
+
+
+
+//Body//
+html,
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    // max-width: 960px;
+    margin-top: 20px;
+    height: 100vh;
+
+}
+.containerBorder{
+    height: 100vh;
+    left: 50%;
+    //background-color: black;
+    width: 100%;
+}
+
+
+// Headings
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+

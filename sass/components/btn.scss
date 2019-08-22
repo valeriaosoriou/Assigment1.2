@@ -1,0 +1,44 @@
+.section {
+  position: relative;
+  width: 100%;
+  //max-width: 800px;
+}
+
+.section img{
+  width: 100%;
+  height: auto;
+}
+
+.section .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color04;
+  font-family: 'Abel';
+  font-size: 20px;
+  font-variant: small-caps;
+  color: $color01;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.section .btn:hover {
+  background-color: $color03;
+}
+
+
+
+// //MEDIA QUERIES//
+@media only screen and (max-width: $tablet) {
+  .section .btn{
+
+  }
+}
+
+
+//font-size is not changing in media queries , why?//

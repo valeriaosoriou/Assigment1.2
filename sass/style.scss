@@ -1,10 +1,12 @@
 @import 'base/reset';
 @import 'base/fonts';
-// @import 'base/base';
+@import 'base/base';
 
 @import 'variables/colour';
 @import 'variables/mediaqueries';
 
+@import 'components/logo';
+@import 'components/paragraph';
 @import 'components/btn';
 @import 'components/banners';
 @import 'components/footer';
@@ -12,6 +14,7 @@
 @import 'components/header';
 @import 'components/images';
 @import 'components/nav';
-@import 'components/paragraph';
 
-@import 'pages/about';
+
+
+//@import 'pages/about';

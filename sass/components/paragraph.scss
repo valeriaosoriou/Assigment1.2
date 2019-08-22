@@ -1,0 +1,30 @@
+.para{
+  font-family: 'abel';
+  font-variant: small-caps;
+  text-align: center;
+}
+
+//SPECIALS//
+.para__menu{
+  color: $color01;
+  font-size: 70px;
+  float: left;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+@media only screen and (max-width: $tablet) {
+.para__menu{
+  
+  font-size: 60px;
+
+}
+}
+
+@media only screen and (max-width: $phone) {
+.para__menu{
+  font-size: 30px;
+
+}
+}

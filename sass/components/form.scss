@@ -1,0 +1,42 @@
+
+
+
+.contact__form{
+	/* Style inputs with type="text", select elements and textareas */
+ 	  border-radius: 5px;
+  	background-color: $color07;
+  	padding: 45px;
+}
+
+.contact__form--input{
+	 width: 100%; /* Full width */
+  	padding: 12px; /* Some padding */  
+  	border: 1px solid $color08; /* border */
+  	border-radius: 2px; /* Rounded borders */
+  	box-sizing: border-box; /* Make sure that padding and width stays in place */
+  	margin-top: 2px; /* Add a top margin */
+  	margin-bottom: 8px; /* Bottom margin */
+  	resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	 font-variant: small-caps;
+   
+}
+
+
+
+//Button Submit//
+
+.btn__submit{
+
+  background-color: $color04;
+  color: $color01;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  float: right;
+  font-variant: small-caps;
+}
+
+.btn__submit--hover{
+  background-color: $color05;
+}

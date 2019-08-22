@@ -45,3 +45,163 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh; }
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 20px;
+  height: 100vh; }
+
+.containerBorder {
+  height: 100vh;
+  left: 50%;
+  width: 100%; }
+
+.logo {
+  padding: 15px 35px 25px 35px;
+  text-align: center; }
+  .logo .imgLogo {
+    width: 50%;
+    height: auto; }
+  .logo .paraLogo {
+    font-family: 'Abel';
+    font-size: 20px;
+    text-transform: uppercase; }
+
+@media only screen and (max-width: 768px) {
+  .logo .imgLogo {
+    width: 65%;
+    height: auto; }
+  .logo .paraLogo {
+    font-size: 15px; } }
+@media only screen and (max-width: 375px) {
+  .logo .imgLogo {
+    width: 70%;
+    height: auto; }
+  .logo .paraLogo {
+    font-size: 8px; } }
+.para {
+  font-family: 'abel';
+  font-variant: small-caps;
+  text-align: center; }
+
+.para__menu {
+  color: #FFFFFF;
+  font-size: 70px;
+  float: left;
+  position: absolute;
+  top: 8px;
+  left: 16px; }
+
+@media only screen and (max-width: 768px) {
+  .para__menu {
+    font-size: 60px; } }
+@media only screen and (max-width: 375px) {
+  .para__menu {
+    font-size: 30px; } }
+.section {
+  position: relative;
+  width: 100%; }
+
+.section img {
+  width: 100%;
+  height: auto; }
+
+.section .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #2B8730;
+  font-family: 'Abel';
+  font-size: 20px;
+  font-variant: small-caps;
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center; }
+
+.section .btn:hover {
+  background-color: #474747; }
+
+.contact__form {
+  /* Style inputs with type="text", select elements and textareas */
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 45px; }
+
+.contact__form--input {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #C8C8C8;
+  /* border */
+  border-radius: 2px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 2px;
+  /* Add a top margin */
+  margin-bottom: 8px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-variant: small-caps; }
+
+.btn__submit {
+  background-color: #2B8730;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  float: right;
+  font-variant: small-caps; }
+
+.btn__submit--hover {
+  background-color: #1A4D0F; }
+
+.section img {
+  width: 100%;
+  height: auto; }
+
+.nav {
+  font-family: arial;
+  font-variant: small-caps;
+  font-size: 35px;
+  height: 50px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: #C8C8C8 3px solid;
+  margin: 0 auto;
+  width: 100%; }
+  .nav .navUl {
+    border: 1px solid #C8C8C8;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  .nav .navLi {
+    display: inline; }
+  .nav .navA {
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #000000; }
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    font-size: 20px;
+    height: 30px;
+    width: 96%; } }

@@ -10,62 +10,74 @@
   <body>
 
 <!--Logo-->
-  <div class="logo">
-		<img class="imgLogo" src="#">
-  </div>
+    <div class="logo">
+  		<img class="imgLogo" src="images/logocrop.jpg" alt="logo">
+      <h2 class="paraLogo">Breakfast Restaurant</h2>
+    </div>
+ 
 
 <!--NavBar-->
-
-  	<nav>
-  		<ul>
-	  		<li><a href="#"> Home </a></li>
-	  		<li><a href="#"> Menu </a></li>
-	  		<li><a href="#"> Contact </a></li>
+  	<nav class="nav">
+  		<ul class="navUl">
+    		<li class="navLi"><a class="navA" href="#"> Home </a></li>
+    		<li class="navLi"><a class="navA" href="#"> Menu </a></li>
+    		<li class="navLi"><a class="navA" href="#"> Contact </a></li>
   		</ul>
   	</nav>
 
 <!--Book a Table-->
+  <div class="container">
+    <div class="containerBorder">
 
-  <div class="sectionBookTab">
-    <img class="imgphoto " src="images/photo1crop.jpg" width="600" height="300">
-    <div class="buttonPosition">
-      <button class="button">Book a Table</button>
-    </div>
-    <p class="paragraph1">Opening hours:
-    Monday to Friday: 6.30 to 2pm
-    Saturday-Sunday: 8am to 2Pm</p>
-  </div>
+      <div class="section">
+        <img class="imgphoto" src="images/photo1crop.jpg">
+        <button class="btn">Book a Table</button>
+<!--         <div class="imgBox">
+          <p class="para--table">Opening hours:<br>Monday to Friday: 6.30 to 2pm<br>Saturday-Sunday: 8am to 2Pm</p>
+        </div> -->
 
-  
+        
+        
+      </div>
 
 <!--Specials-->
 
-  <div class="sectionSpecials">
-    <img class="imgSpecials" src="###">
-    <p>Specials</p>
+  <div class="section">
+    <img class="imgSpecials" src="images/photo1.jpg">
+    <p class="para para__menu">Specials</p>
   </div>
 
-
-<!--Text/About-->
+  <!--Text/About-->
 
   <div>
-    <p class="paragraph2">
+    <p class="para">
       Come and find out for yourself what makes Americanos an essential start to a Wellington day, the American food with a kiwi twist
     </p>
   </div>
 
 
-<!--MENU_BANNER & SECTION-->
+  <!--MENU_BANNER & MENU-->
 
-  <div class="banner">
-    <p class="banner__menu">Menu</p>
+
+  <div class="section"> <!-- AQUI PONER EL BANNER MENU-->
+    <img src="##">
   </div>
 
-  <div class="imgMenu">
-    <img src="###">
-    <img src="###">
-    <img src="###">
+  <div class="section">
+    <div>
+      <img src="images/breakfastcrop.jpg">
+      <p class="para para__menu">Breakfast</p>
+    </div>
+    <div>
+      <img src="images/lunchcrop.jpg">
+      <p class="para para__menu">Lunch</p>
+    </div>
+    <div>
+      <img src="images/kidscrop.jpg">
+      <p class="para para__menu">Kids Menu</p>
+    </div>
   </div>
+
 
 
 <!--CONTACT_BANNER & FORM -->
@@ -74,45 +86,60 @@
     <img src="##">
   </div>
 
-  
-  <form class="contact__form">
+  <div>
+    <form class="contact__form">
+    
+      <input type="text" id="name" class="contact__form--input" placeholder="Name" />
+      <input type="text" id="email" class="contact__form--input" placeholder="Email" />
+      <input type="text" id="phone" class="contact__form--input" placeholder="Phone">
+      <input type="text" id="subject" class="contact__form--input" placeholder="Subject">
+      <textarea type="text" id="message" class="contact__form--input"rows="7" cols="50"  placeholder="Write your message..."> </textarea><br/>
+ 
+<!--SUBMIT BTN-->   
+      <input type="submit" value="Submit" class="btn__submit">
+    </form>  
+  </div> 
 
-        <label for="name" class="member__label">Name</label>
-        <input type="text" id="name" class="member__text member__text--name"/>
-        <br/> <br/>
 
-        <label for="email" class="member__label">Email</label>
-        <input type="text" id="email" class="member__text member__text--email"/>
-        <br/> <br/>
-
-        <label for="phone" class="member__label member__label--phone">Subject</label>
-        <input type="text" id="phone" class="member__text member__text--phone">
-
-        <label for="message" class="member__label member__label--message">Message</label>
-        <textarea id="message" rows="7" cols="50" class="member__textarea member__text--message"> </textarea><br/> <br/>
-
-        <br/> <br/> <br/>
-        <input type="submit" value="Submit" class="member__submit">
-
-      </form>
-  </form>
 
 
 <!--TEXT_ ADDRESS, PHONE, EMAIL-->
 
   <div>
-    <p class="paragraph3">
-      Opening hours:
-      Monday to Friday: 6.30 to 2pm
-      Saturday-Sunday: 8am to 2Pm
-      Phone: 
-      04 499 5242
-      Email: 
-      info@americanos.co.nz
-      Address: 
-      Dunbar Sloan Downstairs, 32 Waring Taylor Street, Lambton, Wellington CBD. 
+    <p class="para">
+      Opening hours:<br>
+      Monday to Friday: 6.30 to 2pm<br>
+      Saturday-Sunday: 8am to 2Pm<br>
+      Phone: <br>
+      04 499 5242<br>
+      Email: <br>
+      info@americanos.co.nz<br>
+      Address: <br>
+      Dunbar Sloan Downstairs, 32 Waring Taylor Street, Lambton, Wellington CBD.<br> 
     </p>
   </div>
+<!-- Aqui poner los otros divs -->
+
+    </div>
+  </div>
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
 
 <!--FOOTER_SOCIAL MEDIA LOGOS-->
 
